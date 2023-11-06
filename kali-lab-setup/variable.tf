@@ -1,89 +1,89 @@
 
 variable "owners" {
-  type=list
+  type = list(any)
 }
 
 variable "ami_name" {
-  type=string
+  type = string
 }
 
 variable "root-device-type" {
-  type=string
+  type = string
 
 }
 
 variable "virtualization-type" {
-  type=string
+  type = string
 }
 
 variable "architecture" {
-  type=string
+  type = string
 }
 
 
 
 
 variable "instance_type" {
-  type=string
+  type = string
 }
 
 variable "tags" {
-  type=map
+  type = map(any)
 }
 
 
 
 variable "region" {
-  type=string
+  type = string
 }
 
 variable "access_key" {
-  type=string
+  type = string
 }
 
 variable "secret_key" {
-  type=string
+  type = string
 }
 
 variable "port-list" {
-  type=list
+  type = list(any)
 
 }
 
 variable "protocol" {
-  type=list
+  type = list(any)
 }
 
 variable "sg-name" {
-  type=string
+  type = string
 }
 
 variable "description" {
-  type=string
+  type = string
 
 }
 
 variable "public_cidr_block" {
-  type=string
+  type = string
 }
 
 variable "map_public_ip" {
-  type=bool
+  type = bool
 }
 
 variable "private_cidr_block" {
-  type=string
+  type = string
 }
 
 variable "map_public_ip_1" {
-  type=bool
+  type = bool
 }
 
 variable "vpc_cidr_block" {
-  type=string
+  type = string
 }
 
 variable "username" {
-  type=string
-  
+  type = string
+
 }
